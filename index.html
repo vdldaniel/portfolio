@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Daniel | Portfolio IT</title>
@@ -10,33 +11,44 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-<header class="header">
-    <nav class="nav">
-        <h1 class="logo">Daniel</h1>
-        <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">Sobre mí</a></li>
-            <li><a href="projects.html">Proyectos</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <a href="index.html">DANIEL<span>.dev</span></a>
+            </div>
 
-<main class="hero">
-    <h2>Hola, soy Daniel</h2>
-    <p>
-        Desarrollador de software en formación, con experiencia en
-        Python, C y sistemas concurrentes.
-    </p>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="about.html">Sobre mí</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contact.html" class="nav-btn">Contacto</a></li>
+            </ul>
 
-    <div class="hero-buttons">
-        <a href="projects.html" class="btn primary">Ver proyectos</a>
-        <a href="contact.html" class="btn secondary">Contactarme</a>
-    </div>
-</main>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
 
-<script src="assets/js/main.js"></script>
+    <main class="hero">
+        <h2>Hola, soy Daniel</h2>
+        <p>
+            Desarrollador de software en formación, con experiencia en
+            Python, C y sistemas concurrentes.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="projects.html" class="btn primary">Ver proyectos</a>
+            <a href="contact.html" class="btn secondary">Contactarme</a>
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
